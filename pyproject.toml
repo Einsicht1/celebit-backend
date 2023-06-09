@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "celebit-backend-django"
+version = "0.1.0"
+description = ""
+authors = ["Einsicht1 <kpl5672@gmail.com>"]
+readme = "README.md"
+packages = [{include = "celebit_backend_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
